@@ -2,6 +2,8 @@
 
 """Gherkin step implementations for shape-related features."""
 
+from __future__ import unicode_literals
+
 import hashlib
 
 from behave import given, when, then
